@@ -1,0 +1,12 @@
+server:
+    port: 8088
+
+log:
+  path: /opt/document/logs
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 10MB
+  
